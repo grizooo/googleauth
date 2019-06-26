@@ -1,0 +1,20 @@
+{
+    "description": "",
+    "type": "neos-package",
+    "name": "sitegeist/googleauth",
+    "require": {
+        "league/oauth2-google": "^2.2",
+        "neos/neos": "*",
+        "neos/flow": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sitegeist\\GoogleAuth\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Sitegeist.GoogleAuth"
+        }
+    }
+}

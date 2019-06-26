@@ -1,0 +1,20 @@
+Sitegeist:
+  GoogleAuth:
+    credentials:
+      clientId: ''
+      clientSecret: ''
+      redirectUri: 'https://www.sitegeist.de/google/authenticate'
+      hostedDomain: 'sitegeist.de'
+    roles:
+      default:
+        - 'Neos.Neos:Editor'
+      admin:
+        - 'Neos.Neos:Administrator'
+    admins:
+        - 'example@sitegeist.de'
+
+Neos:
+  Neos:
+    fusion:
+      autoInclude:
+        Sitegeist.GoogleAuth: true

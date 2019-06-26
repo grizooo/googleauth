@@ -1,0 +1,14 @@
+privilegeTargets:
+
+  'Neos\Flow\Security\Authorization\Privilege\Method\MethodPrivilege':
+
+    'Sitegeist.GoogleAuth:LoginController':
+      matcher: 'method(Sitegeist\GoogleAuth\Controller\LoginController->(authenticate)Action())'
+
+roles:
+
+  'Neos.Flow:Everybody':
+    privileges:
+      -
+        privilegeTarget: 'Sitegeist.GoogleAuth:LoginController'
+        permission: GRANT

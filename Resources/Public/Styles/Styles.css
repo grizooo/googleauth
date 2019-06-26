@@ -1,0 +1,13 @@
+
+.g-signin2 {
+    margin: 15px 0;
+}
+
+.g-signout {
+    color: #fff;
+    display: none;
+}
+
+.g-signout-show {
+    display: block;
+}

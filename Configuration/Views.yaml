@@ -1,0 +1,4 @@
+-
+  requestFilter: 'isPackage("Neos.Neos") && isController("Login") && isAction("index")'
+  options:
+    templatePathAndFilename: 'resource://Sitegeist.GoogleAuth/Private/Templates/Login/Index.html'

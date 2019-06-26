@@ -1,0 +1,10 @@
+
+-
+  name: 'Login'
+  uriPattern: 'google(/{@action})'
+  defaults:
+    '@package':    'Sitegeist.GoogleAuth'
+    '@controller': 'Login'
+    '@action':     'authenticate'
+    '@format':     'html'
+  appendExceedingArguments: true
