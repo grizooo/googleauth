@@ -3,7 +3,7 @@ Sitegeist:
     credentials:
       clientId: ''
       clientSecret: ''
-      redirectUri: 'https://www.sitegeist.de/google/authenticate'
+      redirectUri: 'https://www.yourproject.de/google/authenticate'
       hostedDomain: 'sitegeist.de'
     roles:
       default:
